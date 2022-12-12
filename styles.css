@@ -12,7 +12,7 @@ html {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -53,6 +53,7 @@ h1 {
     font-weight: 500;
     color: #243e63;
     transition: all 300ms ease;
+    font-size: 15px;
 }
 
 .link__hover-effect:after {
