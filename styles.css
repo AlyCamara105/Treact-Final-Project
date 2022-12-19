@@ -39,6 +39,16 @@ p {
     color:rgb(100 21 255)
 }
 
+.about__bubble {
+    pointer-events: none;
+    position: absolute;
+    left: -125px;
+    bottom: 0px;
+    height: 16rem;
+    width: 16rem;
+    opacity: 0.05;
+}
+
 /* Landing */
 
 .landing {
