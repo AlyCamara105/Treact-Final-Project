@@ -32,7 +32,6 @@ h1 {
 
 p {
     line-height: 1.5;
-    color: #243e63;
 }
 
 .purple {
@@ -47,6 +46,10 @@ p {
     height: 16rem;
     width: 16rem;
     opacity: 0.05;
+}
+
+.dark-blue {
+    color: #243e63;
 }
 
 /* Landing */
@@ -85,7 +88,6 @@ p {
     border-bottom: 2px;
     padding-bottom: 4px;
     font-weight: 500;
-    color: #243e63;
     font-size: 0.875rem;
 }
 
@@ -136,7 +138,6 @@ p {
 .logo__text {
     transition: all 350ms ease;
     font-size: 1.5rem;
-    color: #243e63;
     font-weight: 900;
 }
 
@@ -263,4 +264,63 @@ p {
 
 .about__input--button:hover {
     background-color: rgb(71, 11, 189);
+}
+
+/* Features */
+
+.features__container {
+    padding: 96px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__title {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.features__description {
+    font-weight: 900;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.025rem;
+}
+
+.features__text {
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 36rem;
+    font-weight: 500;
+    color: rgb(124 139 161);
+    margin-bottom: 40px;
+}
+
+.features__services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: calc(100%/3);
+    display: flex;
+    padding: 32px 8px;
+}
+
+.service__img--wrapper {
+    border-radius: 9999px;
+    border: solid red 1px;
+    padding: 1.25rem;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.service__img {
+    height: 1.5rem;
+    width: 1.5rem;
+    max-width: 100%;
 }
