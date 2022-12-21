@@ -1,3 +1,3 @@
-Working on video secition 2:02 - 3:06
+Start at 3:07
 
-Note: Left off working on the images for the service divs
+Note for later: The animation to slide the content in only plays when the user is near the section

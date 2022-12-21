@@ -16,6 +16,12 @@ html {
     margin: 0 auto;
 }
 
+.row-2 {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
 }
@@ -50,6 +56,10 @@ p {
 
 .dark-blue {
     color: #243e63;
+}
+
+.grey {
+    color: rgb(124 139 161);
 }
 
 /* Landing */
@@ -296,8 +306,8 @@ p {
     width: 100%;
     max-width: 36rem;
     font-weight: 500;
-    color: rgb(124 139 161);
     margin-bottom: 40px;
+    line-height: 1.6;
 }
 
 .features__services {
@@ -306,21 +316,46 @@ p {
 }
 
 .service {
-    width: calc(100%/3);
+    width: calc(100%/3 - 70px);
     display: flex;
     padding: 32px 8px;
+    margin: 0 35px;
 }
 
 .service__img--wrapper {
-    border-radius: 9999px;
-    border: solid red 1px;
-    padding: 1.25rem;
     flex-shrink: 0;
     text-align: center;
 }
 
 .service__img {
-    height: 1.5rem;
-    width: 1.5rem;
     max-width: 100%;
+    padding: 1.4rem;
+    border-radius: 9999px;
+    text-align: center;
+    border: solid rgb(226, 232, 240) 1px;
+}
+
+.service__description {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.service__description--title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.service__description--text {
+    margin-top: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.features__bubble {
+    pointer-events: none;
+    position: absolute;
+    right: -100px;
+    bottom: -1000px;
+    width: 16rem;
+    opacity: 0.25;
 }
