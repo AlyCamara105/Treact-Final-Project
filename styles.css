@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .row {
@@ -74,17 +75,16 @@ h2 {
     font-weight: 900;
     width: 100%;
     font-size: 3rem;
-    text-align: center;
     letter-spacing: 0.025rem;
 }
 
 .p__description {
     margin-top: 16px;
-    text-align: center;
     width: 100%;
     max-width: 36rem;
     font-weight: 500;
     line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 /* Landing */
@@ -308,6 +308,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .features__services {
@@ -359,4 +360,51 @@ h2 {
     bottom: -1000px;
     width: 16rem;
     opacity: 0.25;
+}
+
+/* Quality Work */
+
+.quality-work__container {
+    display: flex;
+    margin: 104px 32px;
+}
+
+.quality-work__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+}
+
+.quality-work__button {
+    margin-top: 32px;
+    width: 8rem;
+    border-radius: 9999px;
+    padding: 12px;
+    color: white;
+    background-color: rgb(100 21 255);
+    border: none;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+
+.quality-work__button:hover {
+    background-color: rgb(71, 11, 189);;
+}
+
+.quality-work__img--wrapper {
+    display: flex;
+    width: 50%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.quality-work__img {
+    border-radius: 0.25rem;
+    border-width: 1px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
 }
