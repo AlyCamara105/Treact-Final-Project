@@ -392,7 +392,7 @@ h2 {
     background-color: rgb(71, 11, 189);;
 }
 
-.quality-work__img--wrapper {
+.quality-work__img--container {
     display: flex;
     width: 50%;
     margin-left: 50px;
@@ -407,4 +407,19 @@ h2 {
     vertical-align: middle;
     border-style: solid;
     border-color: rgb(226, 232, 240);
+}
+
+.quality-work__dots {
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    z-index: -10;
+    height: 5rem;
+    width: 5rem;
+    fill: currentcolor;
+    color: rgb(100 21 255);
+}
+
+.quality-work__img--wrapper {
+    position: relative;
 }
