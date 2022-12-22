@@ -63,7 +63,7 @@ p {
     color: rgb(124 139 161);
 }
 
-h5 {
+.section-title {
     font-weight: 700;
     letter-spacing: 0.1rem;
     font-size: 15px;
