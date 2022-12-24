@@ -435,13 +435,13 @@ h2 {
 
 .steps__container {
     display: flex;
+    align-items: center;
 }
 
 .steps__img--wrapper {
     width: 50%;
-    display: flex;
-    align-items: center;
     position: relative;
+    padding: 0 16px;
 }
 
 .steps__description {
@@ -482,14 +482,14 @@ h2 {
 }
 
 .steps__dots {
+    opacity: 0.15;
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: -25%;
     z-index: -10;
-    height: 5rem;
-    width: 5rem;
+    height: 50%;
+    width: 50%;
     fill: currentcolor;
     color: rgb(100 21 255);
-    left: 50%;
-    opacity: 0.15;
+    left: 25%;
 }
