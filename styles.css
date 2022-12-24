@@ -364,9 +364,12 @@ h2 {
 
 /* Quality Work */
 
+.quality-work {
+    margin: 104px 32px;
+}
+
 .quality-work__container {
     display: flex;
-    margin: 104px 32px;
 }
 
 .quality-work__description {
@@ -422,4 +425,44 @@ h2 {
 
 .quality-work__img--wrapper {
     position: relative;
+}
+
+/* Steps */
+
+.steps {
+    margin: 208px 0;
+}
+
+.steps__container {
+    display: flex;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.steps__description {
+    width: 50%;
+    margin-left: 64px;
+}
+
+.steps__img {
+    max-width: 100%;
+}
+
+.steps__list {
+    margin-top: 48px;
+}
+
+.step {
+    display: flex;
+    margin-top: 32px;
+}
+
+.step__number {
+    margin-right: 24px;
+    font-size: 2rem;
+    font-weight: 700;
 }
