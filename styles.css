@@ -87,6 +87,10 @@ h2 {
     font-size: 1.1rem;
 }
 
+.white {
+    color: white;
+}
+
 /* Landing */
 
 .landing {
@@ -580,4 +584,137 @@ h2 {
 .value__suitcase {
     color: rgb(155 44 44);
     height: 1.25rem;
+}
+
+/* Pricing */
+
+.pricing {
+    padding: 0 16px;
+    margin-bottom: 104px;
+}
+
+.pricing__container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plans__text {
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+.plans__title {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color:rgb(100 21 255)
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    width: 100%;
+
+}
+
+.plan {
+    width: calc(100%/3 - 40px);
+    border-radius: 10px;
+    border: solid rgb(226, 232, 240) 1px;
+    margin: 0 20px;
+}
+
+.plan__name {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.plan__price {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plan__billing-cycle {
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.plan__line-break {
+    background-color: rgb(124 139 161);
+    opacity: 0.2;
+}
+
+.plan__audience {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+}
+
+.plan__detail {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.plan__button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.plan__button {
+    border-radius: 9999px;
+    padding: 16px;
+    width: 200px;
+    font-weight: 700;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.plan__top-design {
+    width: 100%;
+    height: 7px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.plan__top-design--personal {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__top-design--enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan__business {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__button--personal {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__button--enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan__button:hover {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.16);
+    transform: translateY(-1px) translateX(1px);
+    cursor: pointer;
+}
+
+.plan__button:focus {
+    border: solid rgb(107, 165, 236) 3px;
 }

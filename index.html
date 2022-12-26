@@ -8,7 +8,7 @@
     <link rel="icon"  type="image/x-icon" href="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg">
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <section class="landing">
@@ -207,54 +207,56 @@
     <section class="pricing">
         <div class="row">
             <div class="pricing__container">
-                <h5 class="section-title">Pricing</h5>
-                <h2>Reasonable & Flexible <span class="purple">Plans.</span></h2>
-                <p class="p__description grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5 class="plans__title">PRICING</h5>
+                <h2 class="dark-blue">Reasonable & Flexible <span class="purple">Plans.</span></h2>
+                <p class="plans__text grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="plans">
                     <div class="plan">
-                        <div class="plan__heading">
-                            <h3 class="plan__name">Personal</h3>
-                            <h2 class="plan__price">$17.99</h2>
-                            <p class="plan__billing-cycle">Monthly</p>
+                        <div class="plan__top-design plan__top-design--personal"></div>
+                        <h3 class="plan__name">PERSONAL</h3>
+                        <h2 class="plan__price">$17.99</h2>
+                        <p class="plan__billing-cycle grey">MONTHLY</p>
+                        <hr class="plan__line-break">
+                        <p class="plan__audience">For Individuals</p>
+                        <p class="plan__detail grey">30 Templates</p>
+                        <p class="plan__detail grey">7 Landing Pages</p>
+                        <p class="plan__detail grey">12 Internal Pages</p>
+                        <p class="plan__detail grey">Basic Assistance</p>
+                        <hr class="plan__line-break">
+                        <div class="plan__button-wrapper">
+                            <button class="plan__button plan__button--personal white">BUY NOW</button>
                         </div>
-                        <div class="plan__description">
-                            <p class="plan__audience">For Individuals</p>
-                            <p class="plan__detail">30 Templates</p>
-                            <p class="plan__detail">7 Landing Pages</p>
-                            <p class="plan__detail">12 Internal Pages</p>
-                            <p class="plan__detail">Basic Assistance</p>
+                    </div>
+                    <div class="plan plan__business">
+                        <h3 class="plan__name white">BUSINESS</h3>
+                        <h2 class="plan__price white">$37.99</h2>
+                        <p class="plan__billing-cycle white">MONTHLY</p>
+                        <hr class="plan__line-break">
+                        <p class="plan__audience white">For Small Businesses</p>
+                        <p class="plan__detail white">60 Templates</p>
+                        <p class="plan__detail white">15 Landing Pages</p>
+                        <p class="plan__detail white">22 Internal Pages</p>
+                        <p class="plan__detail white">Priority Assistance</p>
+                        <hr class="plan__line-break">
+                        <div class="plan__button-wrapper">
+                            <button class="plan__button plan__button--business purple">BUY NOW</button>
                         </div>
-                        <button class="plan__button--personal">BUY NOW</button>
                     </div>
                     <div class="plan">
-                        <div class="plan__heading">
-                            <h3 class="plan__name">Business</h3>
-                            <h2 class="plan__price">$37.99</h2>
-                            <p class="plan__billing-cycle">Monthly</p>
+                        <div class="plan__top-design plan__top-design--enterprise"></div>
+                        <h3 class="plan__name">ENTERPRISE</h3>
+                        <h2 class="plan__price">$57.99</h2>
+                        <p class="plan__billing-cycle grey">MONTHLY</p>
+                        <hr class="plan__line-break">
+                        <p class="plan__audience">For Large Companies</p>
+                        <p class="plan__detail grey">90 Templates</p>
+                        <p class="plan__detail grey">27 Landing Pages</p>
+                        <p class="plan__detail grey">37 Internal Pages</p>
+                        <p class="plan__detail grey">Personal Assistance</p>
+                        <hr class="plan__line-break">
+                        <div class="plan__button-wrapper">
+                            <button class="plan__button plan__button--enterprise white">BUY NOW</button>
                         </div>
-                        <div class="plan__description">
-                            <p class="plan__audience">For Small Businesses</p>
-                            <p class="plan__detail">60 Templates</p>
-                            <p class="plan__detail">15 Landing Pages</p>
-                            <p class="plan__detail">22 Internal Pages</p>
-                            <p class="plan__detail">Priority Assistance</p>
-                        </div>
-                        <button class="plan__button--personal">BUY NOW</button>
-                    </div>
-                    <div class="plan">
-                        <div class="plan__heading">
-                            <h3 class="plan__name">Enterprise</h3>
-                            <h2 class="plan__price">$57.99</h2>
-                            <p class="plan__billing-cycle">Monthly</p>
-                        </div>
-                        <div class="plan__description">
-                            <p class="plan__audience">For Large Companies</p>
-                            <p class="plan__detail">90 Templates</p>
-                            <p class="plan__detail">27 Landing Pages</p>
-                            <p class="plan__detail">37 Internal Pages</p>
-                            <p class="plan__detail">Personal Assistance</p>
-                        </div>
-                        <button class="plan__button--personal">BUY NOW</button>
                     </div>
                 </div>
             </div>
