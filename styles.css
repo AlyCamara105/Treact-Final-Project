@@ -648,7 +648,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-.plan__line-break {
+.plan__horiz-line {
     background-color: rgb(124 139 161);
     opacity: 0.2;
 }
