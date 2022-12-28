@@ -98,10 +98,10 @@ h2 {
 /* Landing */
 
 .landing {
-    animation: fade-right 500ms ease-in-out
+    animation: landing__fade-right 500ms ease-in-out
 }
 
-@keyframes fade-right {
+@keyframes landing__fade-right {
     0% {
         opacity: 0;
         transform: translateX(-100vw);
@@ -854,6 +854,7 @@ footer {
     color: white;
     font-size: 14px;
     font-weight: 500;
+    position: relative;
 }
 
 .footer__link--list-item {
@@ -895,6 +896,23 @@ footer {
 .social__links {
     display: flex;
     margin-bottom: 80px;
+}
+
+.footer__link:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: -3px;
+    right: 0;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.footer__link:hover:after {
+    opacity: 1;
+    height: 2px
 }
 
 .footer__social--svg {
