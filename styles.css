@@ -738,6 +738,8 @@ h2 {
     border-radius: 10px;
     border: solid rgb(226, 232, 240) 1px;
     align-items: center;
+    position: relative;
+    z-index: -2;
 }
 
 .users__description {
@@ -787,4 +789,31 @@ h2 {
 .users__button--contact-us:hover {
     background-color: white;
     color: rgb(100 21 255);
+}
+
+.users__bubbles--container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.users__right-bubble {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: -110px;
+    left: -60px;
+    color:rgb(71, 11, 189, 0.4);
+}
+
+.users__left-bubble {
+    position: absolute;
+    color:rgb(71, 11, 189, 0.4);
+    height: 300px;
+    width: 300px;
+    right: -60px;
+    top: -240px;
 }
