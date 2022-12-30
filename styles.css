@@ -928,3 +928,11 @@ footer {
 .footer__social--svg:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 1023) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+}
