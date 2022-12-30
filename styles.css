@@ -929,10 +929,48 @@ footer {
     opacity: 0.8;
 }
 
-@media (max-width: 1023) {
+@media (max-width: 1023px) {
     .about {
-        display: flex;
         flex-direction: column;
+        height: 100%;
+        margin: 0 200px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about__description {
+        width: 100%;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+    .about__description--title {
+        font-size: 30px;
+    }
+
+    .about__input {
+        margin-left: 50px;
+    }
+
+    .about__description--text {
+        margin: 25px 0;
+    }
+
+    .trusted-customers {
+        margin-top: 60px;
+    }
+
+    .trusted-customers__text {
+        font-size: 14px;
+    }
+
+    .trusted-customers__img {
+        padding-right: 0;
+    }
+
+    .nav__links {
         display: none;
     }
 }
