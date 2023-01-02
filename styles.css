@@ -491,7 +491,7 @@ h2 {
     display: flex;
 }
 
-.quality-work__description {
+.quality-work__description--container {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -1204,5 +1204,30 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .service {
+        width: 51%;
+    }
 
+    .quality-work__container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .quality-work__description--container {
+        width: 450px;
+    }
+
+    .quality-work__img--container {
+        width: 450px;
+        margin: 55px 0;
+    }
+
+    .quality-work__description {
+        font-size: 13px;
+    }
+
+    .quality-work__button--container {
+        
+    }
 }
