@@ -1227,7 +1227,54 @@ footer {
         font-size: 13px;
     }
 
-    .quality-work__button--container {
-        
+    .steps__container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .steps__img--wrapper {
+        width: 475px;
+        margin-bottom: 60px;
+    }
+
+    .steps__description {
+        width: 475px;
+        margin: 0 0;
+    }
+
+    .steps__dots {
+        bottom: -35px;
+        height: 75px;
+        width: 75px;
+        left: 200px;
+    }
+
+    .step {
+        margin: 0 0;
+        flex-direction: column;
+    }
+
+    .step__description--text {
+        margin: 8px 0;
+        max-width: 300px;
+    }
+
+    .step__description {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .step__number {
+        margin: 8px 0;
+    }
+
+    .step {
+        margin-bottom: 20px;
+    }
+
+    .step__name {
+        font-weight: 700;
     }
 }
