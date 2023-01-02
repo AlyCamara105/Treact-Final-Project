@@ -1277,4 +1277,45 @@ footer {
     .step__name {
         font-weight: 700;
     }
+
+    .values__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .values__description {
+        width: 425px;
+        text-align: center;
+    }
+
+    .values__img--wrapper {
+        width: 475px;
+        padding: 16px;
+        margin-bottom: 60px;
+    }
+
+    .values__img {
+        margin: 0 0;
+    }
+
+    .values__description--text {
+        font-size: 13px;
+    }
+
+    .values__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value__description {
+        margin: 0 0;
+        max-width: 325px;
+    }
+
+    .value__heading {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
 }
