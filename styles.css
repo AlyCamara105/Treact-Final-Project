@@ -432,13 +432,13 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    justify-content: space-around;
 }
 
 .service {
-    width: calc(100%/3 - 70px);
+    width: calc(100%/3);
     display: flex;
     padding: 32px 8px;
-    margin: 0 35px;
 }
 
 .service__img--wrapper {
@@ -550,6 +550,7 @@ h2 {
 
 .steps {
     margin: 208px 0;
+    padding: 16px;
 }
 
 .steps__container {
@@ -617,6 +618,7 @@ h2 {
 
 .values {
     margin: 208px 0;
+    padding: 16px;
 }
 
 .values__container {
@@ -736,7 +738,6 @@ h2 {
     flex-wrap: wrap;
     margin-top: 64px;
     width: 100%;
-
 }
 
 .plan {
@@ -838,7 +839,7 @@ h2 {
 
 .users {
     height: 320px;
-    padding: 16px;
+    padding: 32px;
     margin: 175px 0;
 }
 
@@ -1115,8 +1116,16 @@ footer {
         display: block;
     }
 
+    .features__services {
+        max-width: 800px;
+    }
+
+    .features__container--description {
+        font-size: 50px;
+    }
+
     .service {
-        width: calc(90%/2 - 70px);
+        width: 50%;
     }
 
     .p__description {
@@ -1161,6 +1170,7 @@ footer {
 
     .plans__description {
         font-size: 50px;
+        padding: 16px;
     }
 
     .plan__price {
