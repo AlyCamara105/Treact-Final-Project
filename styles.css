@@ -1337,3 +1337,38 @@ footer {
         margin: 30px 0;
     }
 }
+
+@media (max-width: 640px) {
+    .about__input--button {
+        width: 100%;
+        line-height: 1;
+        top: 75px;
+        bottom: -75px;
+        right: 0px;
+        margin: 3px 0;
+        max-width: 450px;
+    }
+
+    .trusted-customers {
+        margin-top: 100px;
+    }
+
+    .about__input--container {
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .about__input {
+        margin: 0 0;
+        width: 100%;
+        max-width: 600px;
+        justify-content: center;
+    }
+
+    .about__input--form {
+        width: 100%;
+        max-width: 450px;
+        padding: 20px 0 20px 20px;
+    }
+}
