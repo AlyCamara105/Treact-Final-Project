@@ -1371,4 +1371,42 @@ footer {
         max-width: 450px;
         padding: 20px 0 20px 20px;
     }
+
+    .features__container--description {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+
+    .features__container--text {
+        font-size: 13px;
+    }
+
+    .service {
+        flex-direction: column;
+        max-width: 325px;
+        width: 100%;
+    }
+
+    .service__description {
+        margin: 0 0;
+    }
+
+    .service__description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__description--title {
+        text-align: center;
+    }
+
+    .service__description--text {
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .service__img--wrapper {
+        margin-bottom: 8px;
+    }
+
 }
