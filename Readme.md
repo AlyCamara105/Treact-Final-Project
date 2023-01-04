@@ -1,3 +1,3 @@
 Start 5:56
 
-Note: Finished responsive design for tablets. Move on to responsive design for phones.
+Note: Start working on responsive design for phones for the steps section.
