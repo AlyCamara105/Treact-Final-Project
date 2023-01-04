@@ -1409,4 +1409,17 @@ footer {
         margin-bottom: 8px;
     }
 
+    .quality-work__description--title {
+        font-size: 30px;
+    }
+
+    .quality-work__description--container {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .quality-work__img--container {
+        max-width: 450px;
+        width: 100%;
+    }
 }
