@@ -1457,4 +1457,31 @@ footer {
         max-width: 475px;
         width: 100%;
     }
+
+    .plans__description {
+        font-size: 36px;
+    }
+
+    .plan__price {
+        font-size: 34px;
+    }
+
+    .plan__button {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .plan {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 0 60px 0;
+    }
+
+    .plans {
+        padding: 16px;
+    }
+
+    .plan__button--wrapper {
+        padding: 16px;
+    }
 }
