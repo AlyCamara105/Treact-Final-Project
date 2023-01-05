@@ -1443,4 +1443,18 @@ footer {
         max-width: 475px;
         width: 100%;
     }
+
+    .values__img--wrapper {
+        max-width: 475px;
+        width: 100%;
+    }
+
+    .values__description--header {
+        font-size: 30px;
+    }
+
+    .values__description {
+        max-width: 475px;
+        width: 100%;
+    }
 }
