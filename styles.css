@@ -1422,4 +1422,25 @@ footer {
         max-width: 450px;
         width: 100%;
     }
+
+    .steps__description--text {
+        font-size: 30px;
+    }
+
+    .steps__img--wrapper {
+        max-width: 475px;
+        width: 100%;
+    }
+
+    .steps__dots {
+        bottom: -13%;
+        left: 35%;
+        height: 30%;
+        width: 30%;
+    }
+
+    .steps__description {
+        max-width: 475px;
+        width: 100%;
+    }
 }
