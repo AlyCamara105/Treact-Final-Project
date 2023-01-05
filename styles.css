@@ -789,6 +789,13 @@ h2 {
     height: 120px;
 }
 
+.plan__button--wrapper {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
 .plan__button {
     border-radius: 9999px;
     padding: 16px;
@@ -796,6 +803,7 @@ h2 {
     font-weight: 700;
     border: none;
     transition: all 300ms ease;
+    height: 90%;
 }
 
 .plan__top-design {
@@ -1473,7 +1481,7 @@ footer {
 
     .plan__button {
         max-width: 280px;
-        width: 100%;
+        width: 75%;
     }
 
     .plan {
@@ -1483,10 +1491,6 @@ footer {
     }
 
     .plans {
-        padding: 16px;
-    }
-
-    .plan__button--wrapper {
         padding: 16px;
     }
 
