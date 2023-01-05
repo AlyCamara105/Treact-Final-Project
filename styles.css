@@ -869,6 +869,11 @@ h2 {
     max-width: 500px;
 }
 
+.users__button--wrapper {
+    margin-left: 10px;
+    z-index: 1;
+}
+
 .users__button {
     border-radius: 9999px;
     padding: 23px;
