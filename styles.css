@@ -1508,4 +1508,12 @@ footer {
         justify-content: center;
         margin-bottom: 10px;
     }
+
+    .footer__copyright {
+        text-align: center;
+    }
+
+    .footer__links--wrapper {
+        padding: 16px;
+    }
 }
